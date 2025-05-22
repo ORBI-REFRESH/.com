@@ -13,10 +13,10 @@ body{
     background-image: url(image/fotosvisual.jpg/ftodo.jpg);
 }
 .titulo h1{
-    text-align: center center;
+    text-align: center;
     font-size: 40pxx;
     color: hsl(0, 0%, 3%);
-    margin-top: 100px;
+    margin-top: 150px;
     font-weight: 100;
     font-weight: bold;
 }
@@ -33,7 +33,7 @@ body{
   border: 1px solid rgba(36, 201, 151, 0.712);
   border-radius: 8px;
   padding: 20px;
-  width: 850px; /* Ancho base de la tarjeta */
+  width: 450px; /* Ancho base de la tarjeta */
   box-shadow: 0 2px 5px rgb(48, 230, 214);
   transition: transform 0.3s ease-in-out;
    gap: 20px;
@@ -43,12 +43,13 @@ body{
     box-shadow: 0 12px 16px rgba(0,0,0,0.2);
 }
 contenedor .card img{
-    width: 100px;
-    height: 50px;     
+    width: 400px;
+    height: 300px;     
 }
 .contenedor .card h3{
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
+    justify-content: center;
 }
 .contenedor .card p{
     padding: 0 1rem;
