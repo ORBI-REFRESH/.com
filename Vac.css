@@ -1,0 +1,79 @@
+
+.vacantes-container {
+  display: flex;
+  flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en pantallas pequeñas */
+  justify-content: center; 
+  gap: 20px;
+  padding: 20px;
+  background-image: url(image/fotosvisual.jpg/ftodo.jpg);
+  border-radius: 2px;
+}
+
+.vacante-card {
+  background-color: #999797;
+  border: 1px solid rgb(36, 201, 151, 0.1);
+  border-radius: 8px;
+  padding: 20px;
+  width: 300px; /* Ancho base de la tarjeta */
+  box-shadow: 0 2px 5px rgb(48, 230, 214);
+  transition: transform 0.3s ease-in-out;
+}
+
+.vacante-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(66, 201, 201, 0.89);
+}
+
+.vacante-card h3 {
+  color: #111111;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.vacante-card p {
+  color: #0a0a0a;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+.vacante-card ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  color: #080808;
+}
+
+.vacante-card strong {
+  font-weight: bold;
+  color: #0a0a0a;
+}
+
+.vacante-card a {
+  display: inline-block;
+  background-color: rgb(44, 197, 184);
+  color: rgb(8, 8, 8);
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.vacante-card a:hover {
+  background-color: #034e53;
+}
+
+/* Estilos para hacerlo responsivo */
+
+@media (max-width: 768px) {
+  .vacante-card {
+    width: calc(50% - 20px); 
+  }
+}
+ /* Una tarjeta por fila en pantallas pequeñas */
+
+@media (max-width: 480px) {
+  .vacante-card {
+    width: 100%;
+  }
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url(image/fotosvisual.jpg/ftodo.jpg);
+    background-repeat: no-repeat;
+}
+.form-reg{
+    width: 400px;
+    background-color: rgb(84, 233, 233);
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: calibri;
+}
+.form-reg h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.control{
+    width: 100%;
+    background-color: rgb(12, 170, 144);
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px  solid rgb(12,170,144);
+    font-family: calibri;
+    font-size: 18px;
+}
+.form-reg p {
+height: 40px;
+text-align: center;
+font-size: 18px;
+line-height: 40px;
+}
+.form-reg a:hover {
+    color: rgb(17, 16, 16);
+    text-decoration: underline;
+}
+.form-reg .boton{
+    width: 100%;
+    background: rgb(12, 170, 144);
+    border: none;
+    padding: 12px;
+    color: rgb(10, 10, 10);
+    margin: 16px 0;
+    font-size: 16px;
+}
